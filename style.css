@@ -57,7 +57,7 @@ img {
 
 /* Navbar */
 .navbar {
-    box-shadow: 10px 10px 8px 10px #c9c7c7;
+    box-shadow: var(--box-shadow);
 }
 
 .navbar-nav .nav-link {
@@ -87,4 +87,11 @@ img {
     background-color: var(--c-brand-light);
     border-color: var(--c-brand-light);
     color: #ffffff;
+}
+
+/* hero */
+#hero {
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.507), rgba(var(--c-brand-rgb), 0.438)), url(./imsges/hero-1.jpg);
+    background-position: center;
+    background-size: cover;
 }
