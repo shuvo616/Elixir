@@ -166,3 +166,10 @@ img {
     background-color: rgba(255, 255, 255, 0.2);
     color: white;
 }
+
+/* Counter */
+#counter {
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(imsges/counter.jpg);
+    background-position: center;
+    background-size: cover;
+}
